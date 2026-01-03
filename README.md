@@ -117,6 +117,21 @@ Releases are created manually (workflow dispatch) and attach a tarball of the Cl
 From GitHub Actions, run the **release** workflow and set the tag (e.g. `v0.1.0`). The workflow creates a **draft** release with the tarball.
 The tarball is the Cloudron package ready to download and install.
 
+## GHCR Images
+
+When a release is **published**, a GHCR image is built and pushed:
+
+```
+ghcr.io/jbjardine/dozzle-remote-proxy:<tag>
+ghcr.io/jbjardine/dozzle-remote-proxy:latest
+```
+
+You can install directly from GHCR with Cloudron:
+
+```bash
+cloudron install --image ghcr.io/jbjardine/dozzle-remote-proxy:<tag> --location <app-domain>
+```
+
 ## Contributing
 
 PRs are welcome. Keep changes minimal and documented. Run builds via Cloudron CLI when possible.
