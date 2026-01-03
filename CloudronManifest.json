@@ -1,0 +1,18 @@
+{
+  "id": "io.dozzle.remote-proxy",
+  "title": "Remote Log Proxy",
+  "author": "JBJardine",
+  "description": "Remote Docker log viewer for Cloudron with a built-in config UI and SSH tunneling.",
+  "version": "0.1.0",
+  "upstreamVersion": "8.14.12",
+  "icon": "icon.png",
+  "httpPort": 8080,
+  "healthCheckPath": "/config",
+  "addons": {
+    "localstorage": {}
+  },
+  "manifestVersion": 2,
+  "tags": ["logs", "docker", "remote"],
+  "minBoxVersion": "7.0.0",
+  "postInstallMessage": "After install, open /config in this app.\nSet the remote Docker host (tcp://host:port or ssh://user@host).\nPaste your SSH key if needed, then click “Save & Apply” to reload."
+}

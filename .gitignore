@@ -1,0 +1,19 @@
+# Build artifacts
+config-proxy/config-proxy
+*.exe
+*.out
+*.log
+
+# Local env
+.env
+.env.*
+
+# Secrets and keys
+*.pem
+*.key
+*.ppk
+.secrets/
+
+# OS files
+.DS_Store
+Thumbs.db
