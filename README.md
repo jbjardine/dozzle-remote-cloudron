@@ -1,7 +1,7 @@
 # Remote Log Proxy for Cloudron
 
 [![Release](https://img.shields.io/github/v/release/jbjardine/dozzle-remote-cloudron?sort=semver)](https://github.com/jbjardine/dozzle-remote-cloudron/releases)
-[![GHCR](https://img.shields.io/badge/GHCR-dozzle--remote--proxy-0ea5e9)](https://github.com/jbjardine/dozzle-remote-cloudron/pkgs/container/dozzle-remote-proxy)
+[![GHCR](https://img.shields.io/github/v/release/jbjardine/dozzle-remote-cloudron?label=GHCR&sort=semver)](https://github.com/jbjardine/dozzle-remote-cloudron/pkgs/container/dozzle-remote-proxy)
 [![Cloudron](https://img.shields.io/badge/Cloudron-App-blue)](https://www.cloudron.io/)
 [![Go](https://img.shields.io/badge/Go-1.22-00ADD8?logo=go&logoColor=white)](https://go.dev/)
 [![Dozzle](https://img.shields.io/badge/Dozzle-v8.14.12-3B82F6)](https://github.com/amir20/dozzle)
